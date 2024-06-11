@@ -1,0 +1,54 @@
+using System;
+
+namespace QuizGame 
+{
+    public class Game
+    {
+        static void Main(string[] args)
+        {
+            //Console Edit
+            Console.BackgroundColor = ConsoleColor.Black;
+
+            //Game
+            Console.WriteLine("Hello Welcome to my Quiz Game Press Enter to Continue");
+            Console.WriteLine("WARNING: whatever you put in here dose not Store any data so dont woryy lol");
+            Console.ReadLine();
+
+            Console.WriteLine("Whats your name? ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Why Hello " + name);
+
+            //Age
+            Console.WriteLine("What is your Age ");
+            string Age = Console.ReadLine();
+
+            Console.WriteLine("Nice");
+
+            //Whats your favroite game
+            Console.WriteLine("What is your Favroite Game? ");
+            string FavGame = Console.ReadLine();
+
+            Console.WriteLine("Ok Nice choice ");
+
+
+            //Whats your Favroite Food
+            Console.WriteLine("What is your Favroite Food ");
+            string FavFood = Console.ReadLine();
+
+            Console.WriteLine("Nice im just a Console so i dont know if its my fav food or not but nice choice " + FavFood);
+
+
+            //Whats for Favroite Movie
+            Console.WriteLine("Whats your Favroite Movie ");
+            string FavMovie = Console.ReadLine();
+
+            Console.WriteLine("Like i said im a Console But Good ");
+
+            Console.WriteLine("Thanks for Playing Made By Tencityy ");
+               
+
+
+        }
+    }
+}
